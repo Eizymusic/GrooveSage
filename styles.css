@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #111;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Secciones */
+.section {
+    padding: 3em 0;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Pie de página */
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff9900;
+}
+
+/* Estilos específicos para la página de inicio */
+.main-content {
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.main-content a {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-content a:hover {
+    background-color: #e68200;
+}
+
+/* Estilos específicos para la página de Ensayos */
+#essays h2,
+#essays p {
+    margin: 0;
+}
+
+/* Estilos específicos para la página de Artículos */
+#articles h2,
+#articles p {
+    margin: 0;
+}
+
+/* Estilos específicos para la página de Música */
+#music h2,
+#music p {
+    margin: 0;
+}
